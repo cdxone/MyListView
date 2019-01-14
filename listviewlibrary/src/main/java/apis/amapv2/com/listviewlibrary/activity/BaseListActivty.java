@@ -8,7 +8,7 @@ import android.view.View;
 import apis.amapv2.com.listviewlibrary.R;
 import apis.amapv2.com.listviewlibrary.view.MyListView;
 
-public class BaseListActivty extends AppCompatActivity {
+public abstract class BaseListActivty extends AppCompatActivity {
 
     protected Context mContext;
     protected MyListView mMyListView;
@@ -21,6 +21,8 @@ public class BaseListActivty extends AppCompatActivity {
         initParamsAndValues();
 
         initView();
+
+        initData();
     }
 
     private void initParamsAndValues() {
@@ -30,4 +32,7 @@ public class BaseListActivty extends AppCompatActivity {
     private void initView() {
         mMyListView = findViewById(R.id.mylistview);
     }
+
+    protected abstract void initData();
+
 }
