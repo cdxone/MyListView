@@ -6,6 +6,20 @@
     tools:context=".activity.BaseListActivty"
     android:orientation="vertical"
     >
+    <!--存放头部的View-->
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="标题"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:visibility="gone"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        />
+    <!--列表-->
     <apis.amapv2.com.listviewlibrary.view.MyListView
         android:id="@+id/mylistview"
         android:layout_width="match_parent"
