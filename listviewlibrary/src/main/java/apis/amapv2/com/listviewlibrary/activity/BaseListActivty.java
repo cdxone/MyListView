@@ -7,12 +7,15 @@ import android.view.View;
 import android.widget.FrameLayout;
 import android.widget.TextView;
 
+import java.util.ArrayList;
+
 import apis.amapv2.com.listviewlibrary.R;
+import apis.amapv2.com.listviewlibrary.bean.ItemObject;
 import apis.amapv2.com.listviewlibrary.view.MyListView;
 
 public abstract class BaseListActivty extends AppCompatActivity {
 
-    protected Context mContext;
+    protected Context mContext;//上下文
     protected TextView mTvTitle;//头部TextView:用于显示标题
     protected MyListView mMyListView;//列表VIew
 
@@ -26,6 +29,7 @@ public abstract class BaseListActivty extends AppCompatActivity {
         initView();
 
         initData();
+
     }
 
     private void initParamsAndValues() {
@@ -37,6 +41,12 @@ public abstract class BaseListActivty extends AppCompatActivity {
         mMyListView = findViewById(R.id.mylistview);
     }
 
-    protected abstract void initData();
+    protected void initData(){
+        ArrayList<ItemObject> data = new ArrayList<>();
+        addData(data);
+        mMyListView.setData(data);
+    }
+
+    protected abstract void addData(ArrayList<ItemObject> data);
 
 }
