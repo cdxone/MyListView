@@ -1,8 +1,9 @@
 package apis.amapv2.com.mylistview;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import java.util.ArrayList;
 

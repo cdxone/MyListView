@@ -3,8 +3,14 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MyListView.iml" filepath="$PROJECT_DIR$/MyListView.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/listviewlibrary/listviewlibrary.iml" filepath="$PROJECT_DIR$/listviewlibrary/listviewlibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/MyListView.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/MyListView.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/MyListView.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/MyListView.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/MyListView.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/MyListView.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/MyListView.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/MyListView.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/listviewlibrary/MyListView.listviewlibrary.iml" filepath="$PROJECT_DIR$/.idea/modules/listviewlibrary/MyListView.listviewlibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/listviewlibrary/MyListView.listviewlibrary.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/listviewlibrary/MyListView.listviewlibrary.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/listviewlibrary/MyListView.listviewlibrary.main.iml" filepath="$PROJECT_DIR$/.idea/modules/listviewlibrary/MyListView.listviewlibrary.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/listviewlibrary/MyListView.listviewlibrary.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/listviewlibrary/MyListView.listviewlibrary.unitTest.iml" />
     </modules>
   </component>
 </project>
