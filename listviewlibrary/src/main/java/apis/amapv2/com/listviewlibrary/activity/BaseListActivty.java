@@ -62,6 +62,10 @@ public abstract class BaseListActivty extends AppCompatActivity {
 
     protected abstract void addData(ArrayList<ItemObject> data);
 
+    /**
+     * 增加注释
+     * @return
+     */
     protected boolean isCompare(){
         return true;
     }
