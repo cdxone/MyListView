@@ -9,6 +9,7 @@ import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 
 import java.util.ArrayList;
+import java.util.Comparator;
 
 import apis.amapv2.com.listviewlibrary.R;
 import apis.amapv2.com.listviewlibrary.bean.ItemObject;
@@ -42,12 +43,26 @@ public abstract class BaseListActivty extends AppCompatActivity {
         mMyListView = findViewById(R.id.mylistview);
     }
 
-    protected void initData(){
+    protected void initData() {
         ArrayList<ItemObject> data = new ArrayList<>();
         addData(data);
+        if (isCompare()){
+            data.sort(new Com());
+        }
         mMyListView.setData(data);
     }
 
+    class Com implements Comparator<ItemObject> {
+        @Override
+        public int compare(ItemObject o1, ItemObject o2) {
+            return o1.getTitle().compareTo(o2.getTitle());
+        }
+    }
+
+
     protected abstract void addData(ArrayList<ItemObject> data);
 
+    protected boolean isCompare(){
+        return true;
+    }
 }

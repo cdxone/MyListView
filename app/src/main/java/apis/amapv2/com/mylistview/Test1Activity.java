@@ -13,6 +13,13 @@ public class Test1Activity extends BaseListActivty {
 
     @Override
     protected void addData(ArrayList<ItemObject> data) {
+        data.add(new ItemObject("a", Test1Activity.class));
+        data.add(new ItemObject("c", Test1Activity.class));
+        data.add(new ItemObject("b", Test1Activity.class));
+    }
 
+    @Override
+    protected boolean isCompare() {
+        return false;
     }
 }

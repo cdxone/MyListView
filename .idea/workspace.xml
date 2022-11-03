@@ -10,35 +10,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="47a7653d-9082-4dd5-940f-f46d6c039426" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/app/MyListView.app.androidTest.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/app/MyListView.app.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/app/MyListView.app.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/app/MyListView.app.unitTest.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/listviewlibrary/MyListView.listviewlibrary.androidTest.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/listviewlibrary/MyListView.listviewlibrary.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/listviewlibrary/MyListView.listviewlibrary.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/listviewlibrary/MyListView.listviewlibrary.unitTest.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyListView.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MyListView.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/apis/amapv2/com/mylistview/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/apis/amapv2/com/mylistview/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/apis/amapv2/com/mylistview/MainActivity.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/apis/amapv2/com/mylistview/Test1Activity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/apis/amapv2/com/mylistview/Test1Activity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/apis/amapv2/com/mylistview/Test2Activity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/apis/amapv2/com/mylistview/ExampleUnitTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/listviewlibrary/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/listviewlibrary/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/listviewlibrary/listviewlibrary.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/listviewlibrary/src/main/java/apis/amapv2/com/listviewlibrary/activity/BaseListActivty.java" beforeDir="false" afterPath="$PROJECT_DIR$/listviewlibrary/src/main/java/apis/amapv2/com/listviewlibrary/activity/BaseListActivty.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -156,6 +131,18 @@
       <option name="presentableId" value="Default" />
       <updated>1667439878432</updated>
     </task>
+    <task id="LOCAL-00001" summary="升级为AndroidX版本">
+      <created>1667442125501</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1667442125501</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="升级为AndroidX版本" />
+    <option name="LAST_COMMIT_MESSAGE" value="升级为AndroidX版本" />
   </component>
 </project>
